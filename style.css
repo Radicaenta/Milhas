@@ -1,0 +1,91 @@
+html, body {
+  background-color: #47a0ff;
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat";
+}
+
+.TT {
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.botõesV {
+  background-color: #22b422;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  margin: 45px;
+  border: white;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.ctxt {
+  border-radius: 10px;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 10px;
+}
+
+.mid {
+  text-align: center;
+  padding: 5px;
+}
+
+.subtta {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.subttb {
+  color: #171717;
+  font-size: 40px;
+  padding: 25px;
+  font-weight: 400;
+}
+
+.subttc {
+  text-align: center;
+  color: #8a0000;
+  font-size: 40px;
+  padding: 10px;
+  
+}
+
+.borda {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+.TT {
+  font-size: 40px;
+}
+  
+.subtta {
+  font-size: 20px;
+}
+  
+.subttb {
+  font-size: 25px;
+}
+
+.subttc {
+  color: #8a0000;
+  font-size: 25px;
+  
