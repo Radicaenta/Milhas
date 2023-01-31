@@ -8,3 +8,13 @@ function calcdesc(){
 
   document.getElementById("resp").innerHTML = rcalc.toFixed(2);
 }
+
+// function copy() {
+//   var copyText = document.getElementById("a");
+//   copyText.select();
+//   copyText.setSelectionRange(0, 99999);
+//   navigator.clipboard.writeText(copyText.value);
+
+//   var tooltip = document.getElementById("myTooltip");
+//   tooltip.innerHTML = "Copied: " + copyText.value;
+// }

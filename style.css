@@ -69,6 +69,22 @@ html, body {
 .flex {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+}
+
+.copiar {
+  margin-top: 5px;
+  margin: 10px;
+  width: 80px;
+  height: 85px;
+
+}
+
+.copy {
+  background-color: #0ef147;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 600px) {
